@@ -8,9 +8,5 @@ class Drone {
 
 let drone = new Drone(1234, 'Leah');
 
-//Used dot notation
-console.log('drone: ' + drone.id + ' ' + drone.name);
-
-//console.log(typeof Drone);
-//console.log(typeof drone);
-//console.log(drone instanceof Drone);
+//Used bracket notation
+console.log('drone: ' + drone['id'] + ' ' + drone['name']);
