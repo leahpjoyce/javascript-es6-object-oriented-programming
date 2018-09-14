@@ -1,0 +1,14 @@
+class Drone {
+
+}
+
+let drone = new Drone();
+
+console.log(typeof Drone);
+//function
+
+console.log(typeof drone);
+//object
+
+console.log(drone instanceof Drone);
+//true

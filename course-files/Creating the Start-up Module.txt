@@ -1,0 +1,14 @@
+cd Documents
+dir
+cd before ES6 practice
+npm init // to create the package.json
+npm install -save es6-module-loader traceur //to create node_modules for es6
+npm install -save-dev lite-server // after installing you will see devDependancies
+create src folder and in that folder create app.js // to test type console.log("Hello World"); in app.js src folder
+In package.json type "dev" lite-server
+ "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "lite-server"
+    },
+
+npm run dev
